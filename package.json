@@ -1,5 +1,5 @@
 {
-  "name": "mern",
+  "name": "nevernote",
   "version": "1.0.0",
   "description": "Mern Demo",
   "main": "server.js",
@@ -19,6 +19,8 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "express": "^4.15.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.15.4",
+    "mongoose": "^5.2.1"
   }
 }

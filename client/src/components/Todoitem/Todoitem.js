@@ -1,7 +1,9 @@
 import React from "react";
 
 const Todoitem = props => (
+    
     <div className="row">
+        {console.log(props)}
         <div className="col-1">
             <div className="row">
                 <input type="checkbox" />
@@ -12,10 +14,10 @@ const Todoitem = props => (
         </div>
         <div className="col-10">
             <div className="row">
-                Todo
+                {props.todo}
             </div>
             <div className="row">
-                Deadline
+                {props.deadline}
             </div>
         </div>
         <div className="col-1">
